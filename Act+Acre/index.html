@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queires.css" />
+    <title>Document</title>
+    <script defer src="js/script.js"></script>
+  </head>
+  <body>
+    <header class="header" id="header">
+      <img class="logo" src="img/logo act+acre.png" alt="Logo-Act+Acre" />
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="#">Shop</a></li>
+          <li><a class="main-nav-link" href="#">Science</a></li>
+          <li><a class="main-nav-link" href="#">Press</a></li>
+          <li><a class="main-nav-link" href="#">Blogs</a></li>
+          <li><a class="main-nav-link" href="#">Tutorial</a></li>
+        </ul>
+      </nav>
+      <nav class="side-nav">
+        <ul class="side-nav-list">
+          <li>
+            <a class="side-nav-link" href="#"
+              ><img src="Icons/search.svg" alt="search"
+            /></a>
+          </li>
+          <li>
+            <a class="side-nav-link" href="#"
+              ><img src="Icons/user.svg" alt="user"
+            /></a>
+          </li>
+          <li>
+            <a class="side-nav-link" href="#"
+              ><img src="Icons/bag.svg" alt="bag"
+            /></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!--
+    <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+    </button>
+    -->
+
+    <main>
+      <section class="section-product">
+        <div class="product-image">
+            <img class="product-img" src="img/product.png" alt="Act+Acre">
+        </div>
+        <div class="about-product">
+          <h4 class="about-product-text"><span>&#8592;</span>All products / haircare / restorative hair mask</h4>
+          <h2 class="about-product-title">Restorative hair mask</h2>
+          <h3 class="about-product-subtitle">Nuturishment in a bottle</h3>
+          <div class="line"></div>
+          <p class="about-product-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid magnam vero reiciendis ab, recusandae deleniti quaerat repellendus odit cupiditate, necessitatibus quia harum eum tempore facere! Et quas molestiae sed fugiat.</p>
+          <div class="about-product-organic">
+              <div class="about-product-organic-content">
+                <img src="img/Group 129.png" alt="Organic">
+                <p>100% organic</p>
+              </div>
+              <div class="about-product-organic-content">
+                <img src="img/Group 129.png" alt="Organic">
+                <p>100% organic</p>
+              </div>
+              <div class="about-product-organic-content">
+                <img src="img/Group 129.png" alt="Organic">
+                <p>100% organic</p>
+              </div>
+              <div class="about-product-organic-content">
+                <img src="img/Group 129.png" alt="Organic">
+                <p>100% organic</p>
+              </div>
+          </div>
+          <div class="line"></div>
+          <div class="buy-or-subscribe">
+            <label>
+              <input type="radio" value="buy" checked>
+              Buy Once | $38
+            </label>
+            <label>
+              <input type="radio" value="subscribe">
+              Subscribe (SAVE 20%) | $30
+            </label>
+          </div>
+          <div class="add-to-card">
+            <div class="minus-plus">
+              <span>-</span><p>1</p><span>+</span>
+            </div>
+            <button class="btn-add-to-card" onclick="showSuccessMessage()">Add to cart</button>
+          </div>
+          <div id="success-message">
+            <p style="padding-top: 0.8rem;">Uspješno dodano!</p>
+          </div>
+        </div>
+      </section>
+      
+      <section class="section-ingredients">
+        <button type="button" class="collapsible">Ingredients</button>
+        <div class="content">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum consectetur praesentium laboriosam, consequatur voluptatem quidem nihil possimus dolor recusandae nemo ullam, repellat officiis deleniti corrupti architecto earum nobis omnis officia.</p>
+        </div>
+        <button type="button" class="collapsible">Ingredients</button>
+        <div class="content">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum consectetur praesentium laboriosam, consequatur voluptatem quidem nihil possimus dolor recusandae nemo ullam, repellat officiis deleniti corrupti architecto earum nobis omnis officia.</p>
+        </div>
+        <button type="button" class="collapsible">Ingredients</button>
+        <div class="content">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum consectetur praesentium laboriosam, consequatur voluptatem quidem nihil possimus dolor recusandae nemo ullam, repellat officiis deleniti corrupti architecto earum nobis omnis officia.</p>
+        </div>
+      </section>
+  
+      <section class="may-like">
+        <h2 class="may-like-title">You may also like</h2>
+            <div class="may-like-cards">
+                <div class="may-like-card ">
+                    <img src="img/may-like.png" alt="HAND POMADE" />
+                    <h3 class="may-like-card-title">Hand pomade / pommade mains</h3>
+                    <p class="may-like-card-desc">Nourishment for your hands</p>
+                    <p class="may-like-card-price">159,00 KR</p>
+                </div>
+                <div class="may-like-card">
+                    <img src="img/may-like.png" alt="HAND POMADE" />
+                    <h3 class="may-like-card-title">Hand pomade / pommade mains</h3>
+                    <p class="may-like-card-desc">Nourishment for your hands</p>
+                    <p class="may-like-card-price">159,00 KR</p>
+                </div>
+                <div class="may-like-card">
+                    <img src="img/may-like.png" alt="HAND POMADE" />
+                    <h3 class="may-like-card-title">Hand pomade / pommade mains</h3>
+                    <p class="may-like-card-desc">Nourishment for your hands</p>
+                    <p class="may-like-card-price">159,00 KR</p>
+                </div>
+            </div>
+        </section>
+    </main>
+  </body>
+</html>
